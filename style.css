@@ -776,8 +776,11 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+.bgc-banderole-contact {
+    background-color: #FF621A;
+}
 .bgc-footer {
-    background-color: #1B4D93;
+    background-color: #FF621A;
 }
 
 .tc-white {
@@ -793,8 +796,12 @@ h4 {
 }
 
 .btn-contact {
-    background: #1B4D93;
-    color: #FFFFFF!important;
+    background: #FF621A;
+    color: #000000!important;
+}
+.btn-envoyer {
+    background: #FF621A;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
