@@ -14,15 +14,20 @@
 
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.min.css" />
-
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
 
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script async src="./js/bootstrap.min.js"></script>
-    <script async src="./js/blocs.min.js"></script>
+    <script defer src="./js/jquery-2.1.0.min.js"></script>
+    <script defer src="./js/bootstrap.min.js"></script>
+    <script defer src="./js/blocs.min.js"></script>
     <script defer src="./js/jqBootstrapValidation.min.js"></script>
-    <script async src="./js/formHandler.min.js"></script>
+    <script defer src="./js/formHandler.min.js"></script>
 
     <title>Contact - La Panthère</title>
 
@@ -122,45 +127,39 @@
                 data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label>
-                    Nom
-                    <input id="name" class="form-control" required />
-                  </label>
+                  <label for="name">Nom</label>
+                  <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label>
-                    Adresse email
-                    <input
-                      id="email"
-                      class="form-control"
-                      type="email"
-                      required
-                    />
-                  </label>
+                  <label for="email">Adresse email</label>
+                  <input
+                    id="email"
+                    class="form-control"
+                    type="email"
+                    required
+                  />
                 </div>
                 <div class="form-group">
-                  <label>
-                    Comment nous avez-vous connu ?
-                    <input
-                      class="form-control"
-                      type="email"
-                      required
-                      id="input_504"
-                    />
-                  </label>
+                  <label for="input_504">Comment nous avez-vous connu ?</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    required
+                    id="input_504"
+                  />
                 </div>
                 <div class="form-group">
-                  <label>
-                    Brief de votre projet (Ajoutez autant de détails que
-                    nécessaire)<br />
-                    <textarea
-                      id="message"
-                      class="form-control"
-                      rows="4"
-                      cols="50"
-                      required
-                    ></textarea>
-                  </label>
+                  <label for="message"
+                    >Brief de votre projet (Ajoutez autant de détails que
+                    nécessaire)<br
+                  /></label>
+                  <textarea
+                    id="message"
+                    class="form-control"
+                    rows="4"
+                    cols="50"
+                    required
+                  ></textarea>
                 </div>
                 <button
                   class="bloc-button btn btn-lg btn-block cta-hero btn-envoyer"
@@ -172,8 +171,11 @@
             </div>
             <div class="col-sm-6">
               <p>
-                contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
-                de 9h à 18h, du lundi au vendredi<br />
+                <a href="mailto:contact@agencelapanthere.com"
+                  >contact@agencelapanthere.com</a
+                >
+                <br />2 place Sathonay 69001 Lyon<br />Ouvert de 9h à 18h, du
+                lundi au vendredi<br />
               </p>
             </div>
           </div>
