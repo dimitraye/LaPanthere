@@ -13,7 +13,7 @@ blockquote, figcaption{
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: 0!important;
 }
 
 a:hover {
@@ -464,7 +464,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: 0!important;
 }
 
 .btn-rd {
